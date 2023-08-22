@@ -1111,7 +1111,7 @@ int r82xx_set_freq(struct r82xx_priv *priv, uint32_t freq)
 	uint8_t cable_2_in;
 	uint8_t cable_1_in;
 	uint8_t air_in;
-	
+
 	is_rtlsdr_blog_v4 = rtlsdr_check_dongle_model(priv->rtl_dev, "RTLSDRBlog", "Blog V4");
 
 	/* if it's an RTL-SDR Blog V4, automatically upconvert by 28.8 MHz if we tune to HF
